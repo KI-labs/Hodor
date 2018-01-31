@@ -1,0 +1,20 @@
+{
+  "name": "Hodor",
+  "version": "1.0.0",
+  "description": "A node js application running in raspberry pi to power a relay which in turn activates a switch",
+  "main": "app.js",
+  "dependencies": {
+    "forever": "^0.15.3",
+    "pi-gpio": "^0.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.kigroup.de/r-lathif/door-opener.git"
+  },
+  "author": "Martin, Nithish, Riswan",
+  "license": "ISC"
+}
