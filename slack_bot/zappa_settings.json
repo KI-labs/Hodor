@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "slack_bot.app",
+        "aws_region": "eu-central-1",
+        "profile_name": null,
+        "project_name": "hodor",
+        "runtime": "python3.6",
+        "s3_bucket": "door-open-bot"
+    }
+}
