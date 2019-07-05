@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "forever": "^0.15.3",
-    "pi-gpio": "^0.0.8"
+    "pi-gpio": "^0.0.8",
+    "firebase-admin": "^8.2.0"
   },
   "devDependencies": {},
   "scripts": {
