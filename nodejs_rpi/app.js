@@ -23,7 +23,7 @@ http.createServer(function(request, response) {
             return firebaseAdmin.auth().verifyIdToken(idToken);
         } else if (authType == "Basic") {
             return new Promise(function(resolve, reject) {
-                if (authToken == process.env.TOKEN) {
+                if (authToken == process.env.HODOR_AUTH_TOKEN) {
                     resolve("");
                 } else {
                     reject("password does not conform the environment variable");
