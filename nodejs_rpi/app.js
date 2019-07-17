@@ -1,7 +1,13 @@
 var http = require("http");
 var gpio = require("pi-gpio");
-var firebaseAdmin = require("firebase-admin");
 var pin = 11;
+var firebaseAdmin = require("firebase-admin");
+var admin = require("firebase-admin");
+var serviceAccount = require("./ki-labs-app-firebase-adminsdk.json");
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://ki-labs-app.firebaseio.com"
+});
 var relayOpen = false;
 var openTime = 2000;
 
